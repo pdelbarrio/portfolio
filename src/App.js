@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import logo from "./logoanimation.gif";
 import linkedin from "./linkedin.png";
 import github from "./github.png";
@@ -5,6 +6,12 @@ import github from "./github.png";
 import "./App.css";
 
 function App() {
+  useEffect(() => {
+    console.log(
+      "you are in Pablo del Barrio's portfolio, stay tuned to your screens"
+    );
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
