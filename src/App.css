@@ -174,23 +174,35 @@
 .button:hover {
   box-shadow: 4px 4px 0 #000;
   transform: translate(-4px, -4px);
+  color: black;
 }
 .button:focus-visible {
   outline-offset: 1px;
+  color: black;
+}
+.button:visited {
+  color: black;
+}
+.button:link {
+  color: black;
 }
 
 .links:link {
   text-decoration: none;
+  color: black;
 }
 
 .links:visited {
   text-decoration: none;
+  color: black;
 }
 
 .links:hover {
   text-decoration: underline;
+  color: black;
 }
 
 .links:active {
   text-decoration: underline;
+  color: black;
 }
