@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import logo from "./logoanimation.gif";
 import linkedin from "./linkedin.png";
 import github from "./github.png";
-
 import "./App.css";
+import bgVideo from "./video/bgtest.mp4";
 
 function App() {
   useEffect(() => {
@@ -14,6 +14,9 @@ function App() {
 
   return (
     <div className="App">
+      <video autoPlay loop muted>
+        <source src={bgVideo} type="video/mp4" />
+      </video>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <span>coming soon</span>
