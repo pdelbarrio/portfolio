@@ -45,14 +45,14 @@ function App() {
             <a
               className="button"
               target="_blank"
-              href="https://res.cloudinary.com/parkfinder/image/upload/v1646241398/portfolio/pablodelbarrio2022english_lizdgo.pdf"
+              href="https://res.cloudinary.com/getoutbcn/image/upload/v1646241398/portfolio/pablodelbarrio2022english_lizdgo.pdf"
             >
               English CV
             </a>
             <a
               className="button"
               target="_blank"
-              href="https://res.cloudinary.com/parkfinder/image/upload/v1646241399/portfolio/pablodelbarrio2022cast_joodca.pdf"
+              href="https://res.cloudinary.com/getoutbcn/image/upload/v1646241399/portfolio/pablodelbarrio2022cast_joodca.pdf"
             >
               Spanish CV
             </a>
