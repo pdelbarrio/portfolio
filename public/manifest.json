@@ -1,6 +1,6 @@
 {
-  "short_name": "pablo.lol",
-  "name": "Pablo del Barrio portfolio",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
