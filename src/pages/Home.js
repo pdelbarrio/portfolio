@@ -29,18 +29,18 @@ function Home() {
       <div className="skills">
         <h1> Skills</h1>
         <ol className="list">
-          <li className="item">
+          <li key="1" className="item">
             <h2> Front-End</h2>
             <span>
               JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM, Ionic,
               BootStrap, MaterialUI, StyledComponents, FIGMA
             </span>
           </li>
-          <li className="item">
+          <li key="2" className="item">
             <h2>Back-End</h2>
             <span>NodeJS, ExpressJS, MongoDB, MySQL</span>
           </li>
-          <li className="item">
+          <li key="3" className="item">
             <h2>Testing</h2>
             <span>Jest, Mocha, Jasmine</span>
           </li>

@@ -10,31 +10,31 @@ export const ProjectList = [
     name: "Get Out BCN",
     image: Proj1,
     skills:
-      "JavaScript, TypeScript, TDD with JEST, HTML, StyledComponents, FIGMA",
+      "JavaScript, React with TypeScript, TDD with JEST, HTML, StyledComponents, FIGMA",
   },
   {
     name: "PRIALT web app",
     image: Proj2,
     skills: "React, JavaScript, HTML",
   },
+  {
+    name: "Frequencies Game",
+    image: Proj3,
+    skills: "Vanilla JavaScript",
+  },
+  {
+    name: "BookMeApp",
+    image: Proj4,
+    skills: "React,Node.js,MongoDB",
+  },
   // {
-  //   name: "Spotify Clone",
-  //   image: Proj3,
-  //   skills: "React,Node.js,MongoDB,SpotifyAPI",
-  // },
-  // {
-  //   name: "Social Media Website",
-  //   image: Proj4,
-  //   skills: "React,Node.js,MySQL,GraphQL",
-  // },
-  // {
-  //   name: "Dashboard Visualizer",
+  //   name: "Proj5",
   //   image: Proj5,
-  //   skills: "JavaScript,HTML,CSS",
+  //   skills: "Tech",
   // },
   // {
-  //   name: "Mobile Game",
+  //   name: "Proj6",
   //   image: Proj6,
-  //   skills: "React Native,JavaScript,HTML,CSS",
+  //   skills: "Tech",
   // },
 ];
