@@ -9,10 +9,15 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <a href="https://www.instagram.com/pablo.del.barrio/" target="_blank">
+          <InstagramIcon />
+        </a>
+        <a href="https://twitter.com/pablo_delbarrio" target="_blank">
+          <TwitterIcon />
+        </a>
+        <a href="https://www.linkedin.com/in/pablo-del-barrio/" target="_blank">
+          <LinkedInIcon />
+        </a>
       </div>
       <p> &copy; 2022 pablo.lol</p>
     </div>
