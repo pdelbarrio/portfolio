@@ -52,7 +52,7 @@ function Experience() {
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
-            Bachelor's Degree
+            Professional course
           </h4>
 
           <p> PHP, MySql, API Rest</p>
