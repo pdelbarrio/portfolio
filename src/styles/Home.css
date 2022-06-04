@@ -2,13 +2,13 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  /* color: #3e497a; */
   color: #000000;
 }
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 100px); */
+  height: 200vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

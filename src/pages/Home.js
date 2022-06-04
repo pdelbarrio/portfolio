@@ -21,8 +21,11 @@ function Home() {
           <a href="https://github.com/pdelbarrio" target="_blank">
             <GithubIcon />
           </a>
-          <div>
+          <div className="personalcard">
             <img className="fotopablo" src={fototrans} alt="Pablo" />
+            <div>
+              <p>bla bla</p>
+            </div>
           </div>
         </div>
       </div>
