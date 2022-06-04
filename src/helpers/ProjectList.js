@@ -1,9 +1,7 @@
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj3 from "../assets/proj3.jpg";
+import Proj4 from "../assets/proj4.gif";
 
 export const ProjectList = [
   {
@@ -27,14 +25,4 @@ export const ProjectList = [
     image: Proj4,
     skills: "React,Node.js,MongoDB",
   },
-  // {
-  //   name: "Proj5",
-  //   image: Proj5,
-  //   skills: "Tech",
-  // },
-  // {
-  //   name: "Proj6",
-  //   image: Proj6,
-  //   skills: "Tech",
-  // },
 ];
