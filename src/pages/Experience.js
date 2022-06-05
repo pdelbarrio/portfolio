@@ -4,8 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
+import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
 import ParticlesComponent from "../components/Particles";
 import "../styles/Experience.css";
 
@@ -37,7 +37,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Non-programming related jobs
           </h3>
-          <h4 className="vertical-timeline-element-subtitle"></h4>
+          {/* <h4 className="vertical-timeline-element-subtitle"></h4> */}
           <p></p>
         </VerticalTimelineElement>
 
@@ -88,23 +88,24 @@ function Experience() {
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
-      <div className="buttonswrap">
-        <div className="buttons">
-          <a
-            className="button"
-            target="_blank"
-            href="https://res.cloudinary.com/getoutbcn/image/upload/v1654357293/portfolio/PablodelBarrio_english2022_b4ow39.pdf"
-          >
-            English CV
-          </a>
-          <a
-            className="button"
-            target="_blank"
-            href="https://res.cloudinary.com/getoutbcn/image/upload/v1654357292/portfolio/PablodelBarrio_spanish2022_tmzbtk.pdf"
-          >
-            Spanish CV
-          </a>
-        </div>
+
+      <div className="buttons">
+        <a
+          className="button"
+          target="_blank"
+          href="https://res.cloudinary.com/getoutbcn/image/upload/v1654357293/portfolio/PablodelBarrio_english2022_b4ow39.pdf"
+          rel="noreferrer"
+        >
+          English CV
+        </a>
+        <a
+          className="button"
+          target="_blank"
+          href="https://res.cloudinary.com/getoutbcn/image/upload/v1654357292/portfolio/PablodelBarrio_spanish2022_tmzbtk.pdf"
+          rel="noreferrer"
+        >
+          Spanish CV
+        </a>
       </div>
     </div>
   );

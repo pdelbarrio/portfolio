@@ -1,21 +1,32 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "../styles/Footer.css";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <a href="https://www.instagram.com/pablo.del.barrio/" target="_blank">
+        <a
+          href="https://www.instagram.com/pablo.del.barrio/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <InstagramIcon />
         </a>
-        <a href="https://twitter.com/pablo_delbarrio" target="_blank">
+        <a
+          href="https://twitter.com/pablo_delbarrio"
+          target="_blank"
+          rel="noreferrer"
+        >
           <TwitterIcon />
         </a>
-        <a href="https://www.linkedin.com/in/pablo-del-barrio/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/pablo-del-barrio/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <LinkedInIcon />
         </a>
       </div>

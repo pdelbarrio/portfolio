@@ -1,7 +1,7 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
+// import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/Home.css";
 import ParticlesComponent from "../components/Particles";
 import fototrans from "../assets/transbg.png";
@@ -10,25 +10,33 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Pablo</h2>
+        <div>
+          <h2> Hi, My Name is Pablo</h2>
+          <p>A Frontend developer blablabla.</p>
+          <a href="mailto:pablodbb@gmail.com" target="_blank" rel="noreferrer">
+            <EmailIcon />
+          </a>
+          <a
+            href="https://github.com/pdelbarrio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon />
+          </a>
+        </div>
         <div className="prompt">
           <ParticlesComponent />
 
-          <p>A Frontend developer with a passion for learning and creating.</p>
-          <a href="mailto:pablodbb@gmail.com" target="_blank">
-            <EmailIcon />
-          </a>
-          <a href="https://github.com/pdelbarrio" target="_blank">
-            <GithubIcon />
-          </a>
           <div className="personalcard">
             <img className="fotopablo" src={fototrans} alt="Pablo" />
-            <div>
-              <p>bla bla</p>
+            <div className="text">
+              <p>digital enthusiast</p>
+              <p>culture devourer</p>
             </div>
           </div>
         </div>
       </div>
+
       <div className="skills">
         <h1> Skills</h1>
         <ol className="list">

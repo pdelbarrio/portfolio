@@ -3,6 +3,12 @@
   margin-top: 100px;
   justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
 .button {
   outline: 0;
   grid-gap: 8px;
