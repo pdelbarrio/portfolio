@@ -7,7 +7,7 @@ export const ProjectList = [
   {
     name: "Get Out BCN",
     image: Proj1,
-    info: "GetOut is a collaborative database bla",
+    info: "GET OUT BCN is a collaborative database of cool spots in Barcelona. It is divided into different categories. The user has to register to browse or to add spots to the database. The spots are moderated and will not appear until validated by the administrator. ",
     skills:
       "JavaScript, React with TypeScript, TDD with JEST for the backend, HTML, StyledComponents, FIGMA",
     linkrepo: "https://github.com/pdelbarrio/getout-front",
