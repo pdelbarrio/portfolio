@@ -12,7 +12,8 @@ function Home() {
       <div className="about">
         <div>
           <h2> Hi, My Name is Pablo</h2>
-          <p>A Frontend developer blablabla.</p>
+          <br />
+          <h3>Frontend developer</h3>
           <a href="mailto:pablodbb@gmail.com" target="_blank" rel="noreferrer">
             <EmailIcon />
           </a>
@@ -27,13 +28,13 @@ function Home() {
         <div className="prompt">
           <ParticlesComponent />
 
-          <div className="personalcard">
+          {/* <div className="personalcard">
             <img className="fotopablo" src={fototrans} alt="Pablo" />
             <div className="text">
               <p>digital enthusiast</p>
               <p>culture devourer</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
