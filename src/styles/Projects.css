@@ -6,6 +6,10 @@
   align-items: center;
   flex-direction: column;
 }
+.projects h1 {
+  font-family: "Kosugi Maru", sans-serif;
+}
+
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
@@ -50,6 +54,7 @@
 
 .projectItem h1 {
   font-size: 25px;
+  font-family: "Kosugi Maru", sans-serif;
 }
 
 @media only screen and (max-width: 1300px) {

@@ -8,7 +8,7 @@
 .about {
   width: 100%;
   /* height: calc(100vh - 100px); */
-  height: 200vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -57,6 +57,16 @@
 
 .skills h1 {
   color: #010101;
+  font-size: 40px;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.skills h2 {
+  color: #010101;
+  font-size: 30px;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.skills span {
+  color: #000000;
 }
 
 .skills .list {

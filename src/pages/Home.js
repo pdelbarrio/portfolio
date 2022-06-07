@@ -4,7 +4,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/Home.css";
 import ParticlesComponent from "../components/Particles";
-import fototrans from "../assets/transbg.png";
+// import fototrans from "../assets/transbg.png";
 
 function Home() {
   return (
@@ -44,8 +44,8 @@ function Home() {
           <li key="1" className="item">
             <h2> Front-End</h2>
             <span>
-              JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM, Ionic,
-              BootStrap, MaterialUI, StyledComponents, FIGMA
+              JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM, BootStrap,
+              MaterialUI, Styled Components, FIGMA
             </span>
           </li>
           <li key="2" className="item">
