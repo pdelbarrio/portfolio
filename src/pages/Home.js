@@ -5,15 +5,17 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/Home.css";
 import ParticlesComponent from "../components/Particles";
 // import fototrans from "../assets/transbg.png";
+import logoloop from "../assets/logoloop1.gif";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
         <div>
-          <h2> Hi, My Name is Pablo</h2>
+          <h2> hi, my name is </h2>
+          <img className="logo" src={logoloop} alt="logo" />
           <br />
-          <h3>Frontend developer</h3>
+          <h3>and I'm a frontend developer</h3>
           <a href="mailto:pablodbb@gmail.com" target="_blank" rel="noreferrer">
             <EmailIcon />
           </a>
