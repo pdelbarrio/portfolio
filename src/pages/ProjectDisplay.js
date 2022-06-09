@@ -15,11 +15,11 @@ function ProjectDisplay() {
       <div className="projectinfo">
         <p>
           <b className="texttitle">Info:</b>
-          <p className="text">{project.info}</p>
+          <span className="text">{project.info}</span>
         </p>
         <p>
           <b className="texttitle">Tech:</b>
-          <p className="text">{project.skills}</p>
+          <span className="text">{project.skills}</span>
         </p>
         <div className="icons">
           {project.linkrepo && (

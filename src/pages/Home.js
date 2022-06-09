@@ -16,16 +16,6 @@ function Home() {
           <img className="logo" src={logoloop} alt="logo" />
           <br />
           <h3>and I'm a frontend developer</h3>
-          <a href="mailto:pablodbb@gmail.com" target="_blank" rel="noreferrer">
-            <EmailIcon />
-          </a>
-          <a
-            href="https://github.com/pdelbarrio"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <GitHubIcon />
-          </a>
         </div>
         <div className="prompt">
           <ParticlesComponent />
@@ -59,6 +49,24 @@ function Home() {
             <span>Jest, Mocha, Jasmine</span>
           </li>
         </ol>
+      </div>
+      <div className="mailgit">
+        <div className="homeicons">
+          <div>Feel free to contact me</div>
+          <a href="mailto:pablodbb@gmail.com" target="_blank" rel="noreferrer">
+            <EmailIcon />
+          </a>
+        </div>
+        <div className="homeicons">
+          <div>Or visit my github profile</div>
+          <a
+            href="https://github.com/pdelbarrio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon />
+          </a>
+        </div>
       </div>
     </div>
   );

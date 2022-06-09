@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 .projects h1 {
-  font-family: "Kosugi Maru", sans-serif;
+  font-family: var(--font);
 }
 
 .projects .projectTitle {
@@ -54,7 +54,7 @@
 
 .projectItem h1 {
   font-size: 25px;
-  font-family: "Kosugi Maru", sans-serif;
+  font-family: var(--font);
 }
 
 @media only screen and (max-width: 1300px) {
