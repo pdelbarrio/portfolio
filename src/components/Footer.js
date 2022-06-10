@@ -15,6 +15,7 @@ function Footer() {
         >
           <InstagramIcon />
         </a>
+
         <a
           href="https://twitter.com/pablo_delbarrio"
           target="_blank"
