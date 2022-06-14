@@ -4,6 +4,7 @@ import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkIcon from "@mui/icons-material/Link";
 import "../styles/ProjectDisplay.css";
+import ReactPlayer from "react-player";
 
 function ProjectDisplay() {
   const { id } = useParams();
@@ -32,8 +33,10 @@ function ProjectDisplay() {
               <LinkIcon />
             </a>
           )}
-          {project.linkdemo && <h2>{project.linkdemo}</h2>}
         </div>
+      </div>
+      <div className="demo">
+        {project.linkdemo && <ReactPlayer url={project.linkdemo} />}
       </div>
     </div>
   );
