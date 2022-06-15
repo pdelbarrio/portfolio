@@ -17,11 +17,13 @@ export const ProjectList = [
     linkdemo: "https://vimeo.com/720203535",
   },
   {
-    name: "PRIALT web app",
-    info: "Frontend of a web application that calculates drug doses for pharmaceutical use.",
+    name: "intrathecapp web app (PRIALT)",
+    info:
+      "Frontend of a web application that calculates drug doses for pharmaceutical use. Intrathecapp is an application intended to calculate the doses of a medication to be administered to patients. The client gave us a complex excel file with a multitude of formulas that related different excel fields according to some inputs. The logic part of the calculator was made using Javascript OOP.  \n" +
+      "The backend was done with django and the frontend (my part) with React, using Hooks and Context to manage the state. The application and the repository are private but below I show a small demo.",
     image: Proj2,
     skills: "React, JavaScript, HTML",
-    linkdemo: "Demo soon",
+    linkdemo: "https://vimeo.com/720597336",
   },
   {
     name: "Frequencies Game",
