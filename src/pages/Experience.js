@@ -107,22 +107,6 @@ function Experience() {
         </VerticalTimelineElement>
       </VerticalTimeline>
 
-      <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="July 2022 – present"
-          iconStyle={{ background: "#39c40e", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Software Developer
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">2i Informatica Industrial</h4>
-          <p>
-            Programming and maintenance of applications for mobile phones and the company's own hardware interfaces related to to unattended service stations.
-          </p>
-        </VerticalTimelineElement>
-      </VerticalTimeline>
-
       <div className="buttons">
         <a
           className="button"
