@@ -100,7 +100,7 @@ function Experience() {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">2i Informatica Industrial</h4>
           <p>
-            Programming and maintenance of applications for mobile phones and the company's own hardware related to to unattended service stations.
+            Programming and maintenance of applications for mobile phones and the company's own hardware interfaces related to to unattended service stations.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
