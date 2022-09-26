@@ -15,7 +15,7 @@ function Home() {
           <h2> hi, my name is </h2>
           <img className="logo" src={logoloop} alt="logo" />
           <br />
-          <h3>and I'm a frontend developer</h3>
+          <h3>and I'm a software developer</h3>
         </div>
         <div className="prompt">
           <ParticlesComponent />
@@ -42,11 +42,19 @@ function Home() {
           </li>
           <li key="2" className="item">
             <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, MongoDB, MySQL</span>
+            <span>
+              NodeJS, ExpressJS, MongoDB, MySQL, PostgreSQL, Mongoose, Sequelize
+            </span>
           </li>
           <li key="3" className="item">
             <h2>Testing</h2>
             <span>Jest, Mocha, Jasmine</span>
+          </li>
+          <li key="3" className="item">
+            <h2>Other</h2>
+            <span>
+              Docker, Git, Github, Gitlab, Bitbucket, Photoshop, Premiere
+            </span>
           </li>
         </ol>
       </div>
