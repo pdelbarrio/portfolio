@@ -14,7 +14,7 @@
 }
 .project h1 {
   margin-top: 50px;
-  font-family: var(--font);
+  font-family: var(--font1);
 
   color: #000000;
   font-size: 35px;
@@ -25,13 +25,13 @@
 }
 
 .text {
-  font-size: var(--size-s);
+  font-size: 13px;
   display: inline-block;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 .texttitle {
-  font-size: 30px;
-  font-family: var(--font);
+  font-size: 15px;
+  font-family: var(--font1);
 }
 .project svg {
   font-size: 60px;

@@ -15,6 +15,7 @@ export const ProjectList = [
     linkrepo: "https://github.com/pdelbarrio/getout-front",
     linkdeploy: "https://www.getoutbcn.com/",
     linkdemo: "https://vimeo.com/720203535",
+    status: "Active, but you can see a demo below.",
   },
   {
     name: "intrathecapp web app (PRIALT)",
@@ -24,6 +25,8 @@ export const ProjectList = [
     image: Proj2,
     skills: "React, JavaScript, HTML",
     linkdemo: "https://vimeo.com/720597336",
+    status:
+      "After developing the project the company decided to leave its release on standby, but you can see a demo below.",
   },
   {
     name: "Frequencies Game",
@@ -32,7 +35,7 @@ export const ProjectList = [
     skills: "Vanilla JavaScript",
     linkrepo: "https://github.com/pdelbarrio/frequencies-game",
     linkdeploy: "https://pdelbarrio.github.io/frequencies-game/",
-    linkdemo: "",
+    status: "Active",
   },
   {
     name: "BookMeApp",
@@ -42,5 +45,6 @@ export const ProjectList = [
     linkrepo: "https://github.com/Susana-Prado/BookMeApp-front",
     linkdeploy: "http://bookmeapp-bma.herokuapp.com/",
     linkdemo: "",
+    status: "Active but awaiting improvement",
   },
 ];

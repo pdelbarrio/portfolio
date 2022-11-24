@@ -19,6 +19,7 @@ body {
   --font: "Ubuntu Mono", monospace;
   --font1: "Source Sans Pro", sans-serif;
   --size-xs: 0.5rem;
-  --size-s: 1rem;
-  --size-m: 2rem;
+  --size-s: 10px;
+  --size-m: 1rem;
+  --size-l: 2rem;
 }

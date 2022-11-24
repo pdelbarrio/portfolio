@@ -91,12 +91,12 @@
 .skills h1 {
   color: #010101;
   font-size: 40px;
-  font-family: var(--font);
+  font-family: var(--font1);
 }
 .skills h2 {
   color: #010101;
   font-size: 30px;
-  font-family: var(--font);
+  font-family: var(--font1);
 }
 .skills span {
   color: #000000;

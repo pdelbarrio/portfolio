@@ -15,7 +15,7 @@ function Home() {
           <h2> hi, my name is </h2>
           <img className="logo" src={logoloop} alt="logo" />
           <br />
-          <h3>and I'm a software developer</h3>
+          <h3>and I'm a Software Developer</h3>
         </div>
         <div className="prompt">
           <ParticlesComponent />
@@ -36,8 +36,8 @@ function Home() {
           <li key="1" className="item">
             <h2> Front-End</h2>
             <span>
-              JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM, BootStrap,
-              MaterialUI, Styled Components, FIGMA
+              JavaScript, TypeScript, ReactJS, React Native, Redux, HTML, CSS,
+              NPM, BootStrap, MaterialUI, Styled Components, FIGMA
             </span>
           </li>
           <li key="2" className="item">

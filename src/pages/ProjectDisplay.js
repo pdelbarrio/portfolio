@@ -22,6 +22,10 @@ function ProjectDisplay() {
           <b className="texttitle">Tech:</b>
           <span className="text">{project.skills}</span>
         </p>
+        <p>
+          <b className="texttitle">Status:</b>
+          <span className="text">{project.status}</span>
+        </p>
         <div className="icons">
           {project.linkrepo && (
             <a href={project.linkrepo} target="_blank" rel="noreferrer">
