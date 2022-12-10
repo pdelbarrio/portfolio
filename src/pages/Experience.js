@@ -111,7 +111,7 @@ function Experience() {
         <a
           className="button"
           target="_blank"
-          href="https://res.cloudinary.com/getoutbcn/image/upload/v1669307708/portfolio/PablodelBarrio_english2022_f06fst.pdf"
+          href="https://res.cloudinary.com/getoutbcn/image/upload/v1670684312/portfolio/PablodelBarrio_english2022_nz9wvi.pdf"
           rel="noreferrer"
         >
           English CV
@@ -119,7 +119,7 @@ function Experience() {
         <a
           className="button"
           target="_blank"
-          href="https://res.cloudinary.com/getoutbcn/image/upload/v1669307709/portfolio/PablodelBarrio_spanish2022_hh6s8y.pdf"
+          href="https://res.cloudinary.com/getoutbcn/image/upload/v1670684312/portfolio/PablodelBarrio_spanish2022_qsgz3t.pdf"
           rel="noreferrer"
         >
           Spanish CV
