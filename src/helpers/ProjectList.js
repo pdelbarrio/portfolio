@@ -1,7 +1,8 @@
-import Proj1 from "../assets/proj1.jpg";
+import Proj1 from "../assets/proj12.jpg";
 import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.gif";
-import Proj4 from "../assets/proj4.gif";
+import Proj4 from "../assets/proj4.jpg";
+import Proj5 from "../assets/proj4.gif";
 
 export const ProjectList = [
   {
@@ -38,13 +39,23 @@ export const ProjectList = [
     status: "Active",
   },
   {
-    name: "BookMeApp",
+    name: "Videolol",
     image: Proj4,
+    info: "Mobile frienldy e-commerce site for sale of vhs with shopping cart, social login, possibility to pay by credit card with Stripe integration",
+    skills: " React, Styled Components, Firebase, Redux, Stripe",
+    linkrepo: "https://github.com/pdelbarrio/videolol",
+    linkdeploy: "https://videolol.netlify.app/",
+    linkdemo: "",
+    status: "Active",
+  },
+  {
+    name: "BookMeApp",
+    image: Proj5,
     info: "B2B application booking tool. Venues and promoters are able to create a user. The venue will have a calendar in which the promoter can choose a day and book gigs. The promoter will be able to check venue's details, book the venue, cancel reservation.",
     skills: "React, Node.js, MongoDB",
     linkrepo: "https://github.com/Susana-Prado/BookMeApp-front",
-    linkdeploy: "http://bookmeapp-bma.herokuapp.com/",
+    linkdeploy: "",
     linkdemo: "",
-    status: "Active but awaiting improvement",
+    status: "Inactive, website recently expired due Heroku upgrade",
   },
 ];
