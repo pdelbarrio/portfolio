@@ -16,6 +16,7 @@ function Home() {
           <img className="logo" src={logoloop} alt="logo" />
           <br />
           <h3>and I'm a Software Developer</h3>
+          <h3>(New portfolio coming soon)</h3>
         </div>
         <div className="prompt">
           <ParticlesComponent />
